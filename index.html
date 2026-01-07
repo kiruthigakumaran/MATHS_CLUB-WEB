@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Maths Club | Home</title>
+
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #f4f6f8;
+      }
+
+      /* Header */
+      header {
+        background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+        color: white;
+        text-align: center;
+        padding: 30px;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 36px;
+      }
+
+      header p {
+        margin-top: 8px;
+        font-size: 16px;
+        opacity: 0.9;
+      }
+
+      /* Navbar */
+      nav {
+        background: #1e3c72;
+        text-align: center;
+        padding: 12px;
+      }
+
+      nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      nav a:hover {
+        color: #ffd369;
+      }
+
+      /* Welcome Section */
+      .welcome {
+        padding: 50px 20px;
+        text-align: center;
+        max-width: 1000px;
+        margin: auto;
+      }
+
+      .welcome h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+        color: #1e3c72;
+      }
+
+      .welcome p {
+        font-size: 16px;
+        line-height: 1.6;
+        color: #444;
+      }
+
+      /* What We Do */
+      .what-we-do {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 25px;
+        padding: 40px 20px;
+      }
+
+      .card {
+        background: white;
+        width: 230px;
+        padding: 25px;
+        border-radius: 16px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        animation: fadeUp 1s ease forwards;
+      }
+
+      .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+      }
+
+      .card h3 {
+        color: #1e3c72;
+        margin-bottom: 10px;
+      }
+
+      @keyframes fadeUp {
+        from {
+          opacity: 0;
+          transform: translateY(40px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      /* Register Button */
+      .center-btn {
+        text-align: center;
+        margin: 40px 0;
+      }
+
+      .register-btn {
+        padding: 14px 35px;
+        background: #1e3c72;
+        color: white;
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background 0.3s, transform 0.3s;
+      }
+
+      .register-btn:hover {
+        background: #16305c;
+        transform: scale(1.05);
+      }
+
+      /* Footer */
+      footer {
+        background: #0f2027;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Maths Club</h1>
+      <p>Sathyabama Institute Of Science And Technology</p>
+    </header>
+
+    <!-- Navbar -->
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="events.html">Events</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="register.html">Register</a>
+      <a href="feedback.html">Feedback</a>
+    </nav>
+
+    <!-- Welcome -->
+    <div class="welcome">
+      <h2>Welcome to the Maths Club</h2>
+      <p>
+        The Maths Club at Sathyabama Institute Of Science And Technology aims to
+        nurture analytical thinking, logical reasoning, and a love for
+        mathematics through quizzes, workshops, guest lectures, and competitive
+        events.
+      </p>
+    </div>
+
+    <!-- What We Do -->
+    <div class="what-we-do">
+      <div class="card">
+        <h3>Maths Quizzes</h3>
+        <p>Enhance logical thinking and problem-solving skills.</p>
+      </div>
+
+      <div class="card">
+        <h3>Workshops</h3>
+        <p>Hands-on sessions on mathematical techniques.</p>
+      </div>
+
+      <div class="card">
+        <h3>Guest Lectures</h3>
+        <p>Expert talks by academicians and professionals.</p>
+      </div>
+
+      <div class="card">
+        <h3>Inter-College Events</h3>
+        <p>Compete with students from other institutions.</p>
+      </div>
+    </div>
+
+    <!-- Register Button -->
+    <div class="center-btn">
+      <a class="register-btn" href="register.html">Register Now</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      © 2026 Maths Club | Sathyabama Institute Of Science And Technology
+    </footer>
+  </body>
+</html>

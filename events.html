@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Events | Maths Club</title>
+
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #f4f6f8;
+        color: #333;
+      }
+
+      /* Header */
+      header {
+        background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+        color: white;
+        text-align: center;
+        padding: 25px;
+      }
+
+      /* Navbar */
+      nav {
+        background: #1e3c72;
+        text-align: center;
+        padding: 12px;
+      }
+
+      nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      nav a:hover {
+        color: #ffd369;
+      }
+
+      /* Events Section */
+      .events-container {
+        max-width: 1100px;
+        margin: auto;
+        padding: 40px 20px;
+      }
+
+      .events-container h2 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 32px;
+        color: #1e3c72;
+      }
+
+      .events-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+      }
+
+      .event-card {
+        background: white;
+        width: 260px;
+        padding: 25px;
+        border-radius: 14px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        transition: transform 0.3s ease;
+      }
+
+      .event-card:hover {
+        transform: translateY(-10px);
+      }
+
+      .event-card h3 {
+        color: #1e3c72;
+        margin-top: 0;
+      }
+
+      .event-card p {
+        font-size: 14px;
+        line-height: 1.5;
+      }
+
+      .event-date {
+        margin-top: 12px;
+        font-weight: bold;
+        color: #444;
+      }
+
+      /* Footer */
+      footer {
+        background: #0f2027;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Maths Club Events</h1>
+      <p>Sathyabama Institute Of Science And Technology</p>
+    </header>
+
+    <!-- Navbar -->
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="events.html">Events</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="register.html">Register</a>
+      <a href="feedback.html">Feedback</a>
+    </nav>
+
+    <!-- Events Content -->
+    <div class="events-container">
+      <h2>Upcoming & Past Events</h2>
+
+      <div class="events-grid">
+        <div class="event-card">
+          <h3>Maths Quiz Competition</h3>
+          <p>
+            A fun and challenging quiz designed to test logical thinking,
+            aptitude, and mathematical skills.
+          </p>
+          <div class="event-date">Date: 15 Feb 2026</div>
+        </div>
+
+        <div class="event-card">
+          <h3>Problem Solving Workshop</h3>
+          <p>
+            Hands-on workshop focusing on advanced problem-solving techniques
+            and shortcuts.
+          </p>
+          <div class="event-date">Date: 05 Mar 2026</div>
+        </div>
+
+        <div class="event-card">
+          <h3>Math Behind DSA</h3>
+          <p>
+            Expert talk by a renowned academician on real-world applications of
+            mathematics.
+          </p>
+          <div class="event-date">Date: 06 oct 2025</div>
+        </div>
+
+        <div class="event-card">
+          <h3>Math Arena</h3>
+          <p>
+            A competitive event involving students from multiple colleges
+            showcasing mathematical talent.
+          </p>
+          <div class="event-date">Date: 05 Nov 2025</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      © 2026 Maths Club | Sathyabama Institute Of Science And Technology
+    </footer>
+  </body>
+</html>
